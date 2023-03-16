@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NewsFEED</title>
+  <link rel="icon" href="./images/news.png" type="image/x-icon" style="border-radius: 50%;">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/5cac1b893e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div>
+   <div class="header">
+      <h1>NEWSFEED</h1>
+    </div>
+
+    <div class="savedSection">
+      <div class="container">
+        <button class="toggle-btn">&nbsp;&nbsp;&nbsp;&nbsp;SAVED NEWS&nbsp;&nbsp;&nbsp;&nbsp;</button>
+        <div class="content">
+          <div class="textbox stored">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="newsDiv">
+      <div class="buttons">
+        <button class="btnx1" onclick="dbx(this)">NEW NEWS</button>
+        <button class="btnx1" value="all" onclick="dbx(this)">ALL</button>
+        <button class="btnx1" value="business" onclick="dbx(this)">BUSINESS</button>
+        <button class="btnx1" value="sports" onclick="dbx(this)">SPORTS</button>
+        <button class="btnx1" value="world" onclick="dbx(this)">WORLD</button>
+        <button class="btnx1" value="politics" onclick="dbx(this)">POLITICS</button>
+        <button class="btnx1" value="hatke" onclick="dbx(this)">HATKE</button>
+        <button class="btnx1" value="science" onclick="dbx(this)">SCIENCE</button>
+        <button class="btnx1" value="automobile" onclick="dbx(this)">AUTOMOBILE</button>
+      </div>
+    </div>
+
+    <div class="load">
+      <div class="loader"></div>
+    </div>
+
+    <div class="categories">
+      <div class="container1">
+        <div class="shop-by-categories">
+          <div class="column">
+
+            <div cols="15" class="textarea remove">
+              <span></span><br>
+              <span></span><br>
+              <span class="right">Category :</span><br>
+              <p></p>
+              <i class="fa-solid fa-heart myicon" onclick="saved(this)"></i>
+            </div>
+          </div>
+          <div class="column">
+
+            <div cols="15" class="textarea remove">
+              <span></span><br>
+              <span></span><br>
+              <span class="right">Category :</span><br>
+              <p></p>
+              <i class="fa-solid fa-heart myicon" onclick="saved(this)"></i>
+            </div>
+          </div>
+          <div class="column">
+
+            <div cols="15" class="textarea remove">
+              <span></span><br>
+              <span></span><br>
+              <span class="right">Category :</span><br>
+              <p></p>
+              <i class="fa-solid fa-heart myicon" onclick="saved(this)"></i>
+            </div>
+          </div>
+          <div class="column">
+
+            <div cols="15" class="textarea remove">
+              <span></span><br>
+              <span></span><br>
+              <span class="right">Category :</span><br>
+              <p></p>
+              <i class="fa-solid fa-heart myicon" onclick="saved(this)"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="row copyright">
+        <div class="footer-menu">
+
+          <a href=""><i class="fa-brands fa-square-github"></i></a>
+          <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+
+        </div>
+        <p><b>Copyright &copy; 2023</b></p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
