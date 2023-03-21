@@ -176,13 +176,18 @@
       color: black;
   }
 
+  
   .remove p {
-      overflow: hidden;
+    height: 150px;
+      overflow-y:scroll;
       height: 60px;
+      /* margin: 0px -10px; */
       text-overflow: ellipsis;
-      max-width: 60em;
+      /* max-width: 60em; */
   }
-
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
   .stored img {
       display: none;
   }
@@ -208,6 +213,7 @@
 
   .stored .myicon {
       color: red;
+      display: none;
   }
 
   .column div img {
