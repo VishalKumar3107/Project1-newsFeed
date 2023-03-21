@@ -163,23 +163,25 @@
       border: 4px double #FFE66D;
       margin-bottom: 20px;
       margin-left: 20px;
-      padding: 20px;
-      height: 350px;
+      padding: 10px;
+      height: 380px;
       background: #FF6B6B;
       /* #8AFFD7 #3A2E39 #2F4858 #FF6B6B #FFE66D; */
 
   }
 
   .remove i {
-      height: 5px;
+      height: 2px;
+      margin-bottom: px;
       width: 20px;
-      color: black;
+      color: rgb(0, 0, 0);
   }
 
   .remove p {
     height: 150px;
       overflow-y:scroll;
-      height: 60px;
+      height: 70px;
+      padding-top: -20px;
       /* margin: 0px -10px; */
       text-overflow: ellipsis;
       /* max-width: 60em; */
