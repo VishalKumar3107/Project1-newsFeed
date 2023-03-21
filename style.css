@@ -176,7 +176,6 @@
       color: black;
   }
 
-  
   .remove p {
     height: 150px;
       overflow-y:scroll;
@@ -212,7 +211,6 @@
   }
 
   .stored .myicon {
-      color: red;
       display: none;
   }
 
